@@ -2,21 +2,27 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    display: inline-block;
-    align-items: center;
-    justify-content: center center;
+    background-color: #EBF219;
     width: 100vw;
     height: 100vh;
     color: #F1F2F4
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
 .imagem {
-    background-color: #EBF219;
+    background-color: #F1F2F4;
     width: 400px;
     height: 600px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.445);
+    align-items: center center;
 }
 .container {
     display: flex;
